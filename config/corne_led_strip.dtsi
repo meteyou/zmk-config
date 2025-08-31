@@ -1,0 +1,4 @@
+// Change the chain-length value to match your LED strip length. Default is 10
+&led_strip {
+    chain-length = <27>;
+};
