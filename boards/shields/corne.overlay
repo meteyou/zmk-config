@@ -1,4 +1,4 @@
 &ws2812 {
-    chain-length = <27>;
     status = "okay";
+    chain-length = <27>;
 };
