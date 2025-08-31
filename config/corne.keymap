@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #include "nice_view_adapter.dtsi"
+#include "corne_led_strip.dtsi"
 
 / {
         keymap {
