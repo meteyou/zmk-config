@@ -11,6 +11,10 @@
 // import German locale
 #include <locale/keys_de.h>
 
+// import zmk-helpers
+#include <zmk-helpers/helper.h>
+#include <zmk-helpers/unicode-chars/german.dtsi>
+
 #include "nice_view_adapter.dtsi"
 #include "corne_led_strip.dtsi"
 
