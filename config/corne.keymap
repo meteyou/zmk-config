@@ -10,6 +10,7 @@
 
 #include "nice_view_adapter.dtsi"
 #include "corne_led_strip.dtsi"
+#include "pandakb_switches_fix.dtsi"
 
 / {
         keymap {
