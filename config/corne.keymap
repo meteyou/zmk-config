@@ -20,6 +20,7 @@
 
 #include "nice_view_adapter.dtsi"
 #include "corne_led_strip.dtsi"
+#include "leader.dtsi"
 
 #define DEF 0
 #define NUM 1
