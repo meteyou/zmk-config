@@ -13,8 +13,10 @@
 
 // import zmk-helpers and set Host OS to MacOS
 #define HOST_OS 2
-#include <zmk-helpers/helper.h>
-#include <zmk-helpers/unicode-chars/german.dtsi>
+#include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/42.h"
+#include "zmk-helpers/unicode-chars/german.dtsi"
+#include "zmk-helpers/unicode-chars/currency.dtsi"
 
 #include "nice_view_adapter.dtsi"
 #include "corne_led_strip.dtsi"
