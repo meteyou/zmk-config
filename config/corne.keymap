@@ -31,6 +31,11 @@
 #define XXX &none
 #define ___ &trans
 
+/* Global settings */
+// MARK: Global settings
+
+#define QUICK_TAP_MS 175
+
 /* Homerow mods */
 // MARK: Homerow mods
 
@@ -54,7 +59,7 @@ ZMK_LAYER(Base,
      //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
          &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Z         &kp U         &kp I         &kp O         &kp P         &kp BSPC
      //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &kp LCTRL     &hml LCTRL A  &hml LALT S   &hml LSHFT D  &hml LGUI F   &kp G           &kp H         &hml RGUI J   &hml RSHIFT K &hml RALT L   &hml RCTRL SEMI &kp SQT
+         &kp LCTRL     &hml LCTRL A  &hml LALT S   &hml LSHFT D  &hml LGUI F   &kp G           &kp H         &hml RGUI J   &hml RSHIFT K &hml RALT L   &hml RCTRL SEMI  &kp SQT
      //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
          &sk LSHFT     &kp Y         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
      //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
